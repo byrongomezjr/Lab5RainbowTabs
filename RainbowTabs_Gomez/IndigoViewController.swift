@@ -1,20 +1,24 @@
 //
-//  ViewController.swift
+//  IndigoViewController.swift
 //  RainbowTabs_Gomez
 //
 //  Created by Byron Gomez Jr on 4/13/23.
+//  Copyright © 2023 Byron Gomez. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class IndigoViewController: UIViewController {
 
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        tabBarItem.badgeValue = "!"
+    }
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         
         tabBarItem.badgeValue = nil
     }
 
-
 }
-

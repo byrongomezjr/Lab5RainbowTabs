@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		F545324E29E85F900073242E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F545324D29E85F900073242E /* AppDelegate.swift */; };
 		F545325029E85F900073242E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F545324F29E85F900073242E /* SceneDelegate.swift */; };
-		F545325229E85F900073242E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F545325129E85F900073242E /* ViewController.swift */; };
+		F545325229E85F900073242E /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F545325129E85F900073242E /* RedViewController.swift */; };
 		F545325529E85F900073242E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F545325329E85F900073242E /* Main.storyboard */; };
 		F545325729E85F920073242E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F545325629E85F920073242E /* Assets.xcassets */; };
 		F545325A29E85F920073242E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F545325829E85F920073242E /* LaunchScreen.storyboard */; };
 		F545326529E85F920073242E /* RainbowTabs_GomezTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F545326429E85F920073242E /* RainbowTabs_GomezTests.swift */; };
 		F545326F29E85F920073242E /* RainbowTabs_GomezUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F545326E29E85F920073242E /* RainbowTabs_GomezUITests.swift */; };
 		F545327129E85F920073242E /* RainbowTabs_GomezUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F545327029E85F920073242E /* RainbowTabs_GomezUITestsLaunchTests.swift */; };
+		F545327E29E8FC9C0073242E /* OrangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F545327D29E8FC9C0073242E /* OrangeViewController.swift */; };
+		F545328029E8FD890073242E /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F545327F29E8FD890073242E /* GreenViewController.swift */; };
+		F545328229E8FDBE0073242E /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F545328129E8FDBE0073242E /* YellowViewController.swift */; };
+		F545328429E8FDE50073242E /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F545328329E8FDE50073242E /* BlueViewController.swift */; };
+		F545328629E8FDF70073242E /* IndigoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F545328529E8FDF70073242E /* IndigoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +44,7 @@
 		F545324A29E85F900073242E /* RainbowTabs_Gomez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainbowTabs_Gomez.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F545324D29E85F900073242E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F545324F29E85F900073242E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F545325129E85F900073242E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F545325129E85F900073242E /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
 		F545325429E85F900073242E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F545325629E85F920073242E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F545325929E85F920073242E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,11 @@
 		F545326A29E85F920073242E /* RainbowTabs_GomezUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainbowTabs_GomezUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F545326E29E85F920073242E /* RainbowTabs_GomezUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowTabs_GomezUITests.swift; sourceTree = "<group>"; };
 		F545327029E85F920073242E /* RainbowTabs_GomezUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowTabs_GomezUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F545327D29E8FC9C0073242E /* OrangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeViewController.swift; sourceTree = "<group>"; };
+		F545327F29E8FD890073242E /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+		F545328129E8FDBE0073242E /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
+		F545328329E8FDE50073242E /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		F545328529E8FDF70073242E /* IndigoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndigoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +111,13 @@
 			children = (
 				F545324D29E85F900073242E /* AppDelegate.swift */,
 				F545324F29E85F900073242E /* SceneDelegate.swift */,
-				F545325129E85F900073242E /* ViewController.swift */,
 				F545325329E85F900073242E /* Main.storyboard */,
+				F545325129E85F900073242E /* RedViewController.swift */,
+				F545328529E8FDF70073242E /* IndigoViewController.swift */,
+				F545328329E8FDE50073242E /* BlueViewController.swift */,
+				F545327F29E8FD890073242E /* GreenViewController.swift */,
+				F545328129E8FDBE0073242E /* YellowViewController.swift */,
+				F545327D29E8FC9C0073242E /* OrangeViewController.swift */,
 				F545325629E85F920073242E /* Assets.xcassets */,
 				F545325829E85F920073242E /* LaunchScreen.storyboard */,
 				F545325B29E85F920073242E /* Info.plist */,
@@ -259,9 +274,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F545325229E85F900073242E /* ViewController.swift in Sources */,
+				F545327E29E8FC9C0073242E /* OrangeViewController.swift in Sources */,
+				F545325229E85F900073242E /* RedViewController.swift in Sources */,
 				F545324E29E85F900073242E /* AppDelegate.swift in Sources */,
 				F545325029E85F900073242E /* SceneDelegate.swift in Sources */,
+				F545328229E8FDBE0073242E /* YellowViewController.swift in Sources */,
+				F545328029E8FD890073242E /* GreenViewController.swift in Sources */,
+				F545328629E8FDF70073242E /* IndigoViewController.swift in Sources */,
+				F545328429E8FDE50073242E /* BlueViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
